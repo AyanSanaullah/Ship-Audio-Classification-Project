@@ -6,17 +6,15 @@ This repository contains a project focused on classifying underwater ship audio 
 
 ```
 /<repository_name>
-├── data/               # Placeholder for dataset (not uploaded)
-├── src/                # Source code
-│   ├── __noise_target  # Dataset handling script
-│   ├── SpeedBoat       # Dataset class implementation
-│   ├── __KaiYuan       # Model definitions (CNN, Transformer)
-│   ├── UUV            # Training and evaluation scripts
-│   └── KaiYuan         # Utility functions (metrics, plotting, etc.)
-├── notebooks/          # Jupyter notebooks
+├── data/               # Data
+│   ├── __noise_target 
+│   ├── SpeedBoat      
+│   ├── __KaiYuan      
+│   ├── UUV           
+│   └── KaiYuan         
+├── notebooks/          # Jupyter notebook
 │   └── assignment.ipynb
 ├── README.md           # Project overview
-├── .gitignore          # Ignore unnecessary files
 └── requirements.txt    # Python dependencies
 ```
 
@@ -105,7 +103,7 @@ The Jupyter notebook `assignment.ipynb` contains the code for:
 - Model training and evaluation.
 
 #### Training the Models
-Navigate to the `src/` directory and execute:
+Navigate to the `data/` directory and execute:
 ```bash
 python UUV
 ```
