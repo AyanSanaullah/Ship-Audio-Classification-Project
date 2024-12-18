@@ -12,8 +12,7 @@ This repository contains a project focused on classifying underwater ship audio 
 │   ├── __KaiYuan      
 │   ├── UUV           
 │   └── KaiYuan         
-├── notebooks/          # Jupyter notebook
-│   └── assignment.ipynb
+├── assignment.ipynb
 ├── README.md           # Project overview
 └── requirements.txt    # Python dependencies
 ```
