@@ -5,13 +5,8 @@ This repository contains a project focused on classifying underwater ship audio 
 ## Project Structure
 
 ```
-/<repository_name>
-├── data/               # Data
-│   ├── __noise_target 
-│   ├── SpeedBoat      
-│   ├── __KaiYuan      
-│   ├── UUV           
-│   └── KaiYuan         
+/Ship-Audio-Classification-Project
+     
 ├── ship_audio_classification.ipynb
 ├── README.md           # Project overview
 └── requirements.txt    # Python dependencies
@@ -27,13 +22,6 @@ This repository contains a project focused on classifying underwater ship audio 
 ### Transformer-based Model
 - Incorporates long-range dependencies for improved balance across classes.
 - Shows higher recall for `SpeedBoat` and `UUV` classes.
-
-## Dataset
-The dataset comprises spectrograms generated from underwater audio signals of various ship types. The data is organized into the following classes:
-
-- `SpeedBoat`
-- `KaiYuan`
-- `UUV`
 
 ### Preprocessing
 1. Convert time-domain audio into frequency-domain spectrograms.
@@ -101,11 +89,6 @@ The Jupyter notebook `assignment.ipynb` contains the code for:
 - Data loading and preprocessing.
 - Model training and evaluation.
 
-#### Training the Models
-Navigate to the `data/` directory and execute:
-```bash
-python UUV
-```
 
 #### Viewing Results
 Model performance metrics and confusion matrices are displayed during evaluation.
